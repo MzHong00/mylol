@@ -1,0 +1,47 @@
+.sidebarContainer {
+    position: fixed;
+    width: 300px;
+
+    line-height: 50px;
+    min-height: 100vh;
+    border-right: solid silver 1px;
+}
+
+.sidebarLogo {
+    margin-inline: 20px;
+    padding-inline: 10px;
+    margin-block: 20px;
+    border-radius: 10px;
+
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.sidebarList {
+    display: block;
+    margin-inline: 20px;
+    padding-inline: 10px;
+    margin-block: 10px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.sidebarList:hover {
+    background-color: rgb(215, 244, 255);
+}
+
+
+
+
+.championContainer {
+    gap: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
