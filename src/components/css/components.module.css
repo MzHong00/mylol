@@ -2,9 +2,10 @@
     position: fixed;
     width: 300px;
 
+    background-color: rgb(215, 244, 255);
     line-height: 50px;
     min-height: 100vh;
-    border-right: solid silver 1px;
+    border-radius: 0px 40px 0px 0px;
 }
 
 .sidebarLogo {
@@ -13,7 +14,7 @@
     margin-block: 20px;
     border-radius: 10px;
 
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -22,10 +23,10 @@
 
 .sidebarList {
     display: block;
-    margin-inline: 20px;
+    margin-left: 20px;
     padding-inline: 10px;
     margin-block: 10px;
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
 
     text-decoration: none;
     color: black;
@@ -34,7 +35,7 @@
 }
 
 .sidebarList:hover {
-    background-color: rgb(215, 244, 255);
+    background-color: white
 }
 
 
@@ -43,5 +44,15 @@
 .championContainer {
     gap: 10px;
     flex-wrap: wrap;
+    display: flex;
+}
+
+.championContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.championDetailContainer {
     display: flex;
 }

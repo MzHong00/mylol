@@ -3,6 +3,7 @@ import Main from "../pages/main";
 import Home from "../components/home";
 import Rank from "../components/rank";
 import Champion from "../components/champion";
+import ChampionDetail from "../components/championDetail";
 import { sideBarList } from "../components/sidebar";
 
 const router = createBrowserRouter([
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path: `${sideBarList[1]}`,
                 element: <Champion></Champion>
+            },
+            {
+                path: `${sideBarList[1]}/:id`,
+                element: <ChampionDetail></ChampionDetail>
             },
             {
                 path: `${sideBarList[2]}`,

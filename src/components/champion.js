@@ -16,8 +16,6 @@ export default function Champion() {
         getChampion();
     }, []);
 
-    console.log(champ)
-
     return (
         <div>
             <h2>챔피언 정보</h2>

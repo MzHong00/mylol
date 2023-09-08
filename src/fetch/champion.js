@@ -13,8 +13,8 @@ async function fetchChampion() {
 
 }
 
-async function fetchChampionFull() {
-    const res = await fetch("http://ddragon.leagueoflegends.com/cdn/13.16.1/data/en_US/championFull.json");
+async function fetchChampionFull(champion) {
+    const res = await fetch(`http://ddragon.leagueoflegends.com/cdn/13.17.1/data/en_US/champion/${champion}.json`);
     const data = res.json();
 
     return data;
