@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import styles from "./css/components.module.css"
+import styles from "../styles/champion.module.css"
 
 export default function ChampionDetail() {
     const { id } = useParams();

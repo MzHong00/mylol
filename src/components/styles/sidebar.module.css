@@ -1,0 +1,40 @@
+.sidebarContainer {
+    width: 10%;
+    background-color: #eaf7ff;
+    line-height: 50px;
+    min-height: 100vh;
+}
+
+.sidebarLogo {
+    margin-inline: 20px;
+    padding-inline: 10px;
+    margin-block: 20px;
+    border-radius: 10px;
+
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.sidebarList {
+    display: block;
+    margin-left: 20px;
+    padding-inline: 10px;
+    margin-block: 10px;
+    border-radius: 10px 0px 0px 10px;
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.sidebarFocus {
+    background-color: white;
+}
+
+.sidebarList:hover {
+    background-color: white
+}

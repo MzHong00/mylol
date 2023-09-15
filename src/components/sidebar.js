@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import styles from "./css/components.module.css";
+import styles from "./styles/sidebar.module.css";
 import { useState, useEffect } from "react";
 
 export const sideBarList = [

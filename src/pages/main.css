@@ -9,5 +9,6 @@
 }
 
 .mainContents {
-    width: 100%;
+    width: 90%;
+    padding-inline: 10%;
 }

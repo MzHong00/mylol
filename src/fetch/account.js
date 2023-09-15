@@ -1,4 +1,4 @@
-const API_KEY = "";
+import { RIOT_API_KEY } from "../constant/riot_api_key";
 
 async function fetchUserByName(userName) {
     try {

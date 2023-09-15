@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../pages/main";
 import Home from "../components/home";
 import Rank from "../components/rank";
-import Champion from "../components/champion";
-import ChampionDetail from "../components/championDetail";
+import Champion from "../components/champion/champion";
+import ChampionDetail from "../components/champion/championDetail";
 import { sideBarList } from "../components/sidebar";
 
 const router = createBrowserRouter([

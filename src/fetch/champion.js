@@ -1,4 +1,4 @@
-const API_KEY = "RGAPI-473e7821-22af-4ac8-8eb7-ded4a2a2e3ef"
+import { RIOT_API_KEY } from "../constant/riot_api_key";
 
 async function fetchChampion() {
     try {
@@ -22,10 +22,17 @@ async function fetchChampionFull() {
 }
 
 async function fetchChampionRotations() {
-    const res = await fetch(`https://kr.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=${API_KEY}`);
-    const data = res.json();
+    try {
+        const res = await fetch(`https://kr.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=${API_KEY}`);
+        const data = res.json();
+    
+        return data;
+    } catch {
+        console.log("API KEY 만료");
 
-    return data;
+        return ;
+    }
+    
 }
 
 export { fetchChampion, fetchChampionFull, fetchChampionRotations }
