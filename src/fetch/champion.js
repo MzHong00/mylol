@@ -23,7 +23,7 @@ async function fetchChampionFull() {
 
 async function fetchChampionRotations() {
     try {
-        const res = await fetch(`https://kr.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=${API_KEY}`);
+        const res = await fetch(`https://kr.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=${RIOT_API_KEY}`);
         const data = res.json();
     
         return data;

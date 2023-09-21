@@ -23,11 +23,12 @@
     overflow: hidden;
 }
 
-.rotation div a img {
-    width: 85px;
-}
-
 .rotationTitle {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5em;
+}
+
+.rotationImg {
+    width: 85px;
+    -webkit-user-drag: none;
 }
