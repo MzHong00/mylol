@@ -8,6 +8,8 @@
 .rotationContainer {
     height: 100%;
     text-align: center;
+    overflow: hidden;
+    border-radius: 0px 0px 30px 30px;
 }
 
 .rotationContainer::-webkit-scrollbar {
@@ -16,11 +18,9 @@
 
 .rotationContents {
     scale: 0.9;
-    gap: 10px;
     display: flex;
     align-items: center;
     height: 100%;
-    overflow: hidden;
 }
 
 .rotationTitle {
